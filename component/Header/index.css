@@ -1,0 +1,40 @@
+.web-main-bg-container{
+     display: flex;
+     flex-direction: column;
+     background-color: aliceblue;
+     background-size: cover;
+}
+.navbar{
+     height: 20%;
+     background-size: cover;
+     background-color: #05529aeb;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+}
+.logo-image{
+     height: 80px;
+     
+     margin-left: 25px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     border-radius: 7px;
+}
+.nav-list{
+     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     margin-right: 25px;
+}
+.list-item{
+     margin-right: 15px;
+     color: "greyishblack";
+     font-family: "Open Sans";
+     font-size: 16px;
+     cursor: pointer;
+     color: #ffffff;
+}
+.list{
+     text-decoration: none;
+}

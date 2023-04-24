@@ -1,0 +1,22 @@
+.footer-container {
+     background-color: #05529aeb;
+     color: #fff;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 20px;
+   }
+   
+   .social-icons a {
+     color: #fff;
+     margin-right: 10px;
+   }
+   
+   .social-icons a:hover {
+     color: #bfbfbf;
+   }
+   
+   .copy-right {
+     font-size: 14px;
+   }
+   

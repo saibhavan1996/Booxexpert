@@ -1,0 +1,58 @@
+.messge-form{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 10px;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+     width: 500px;
+}
+.input-bar{
+     border:1px solid #05a0e8;
+     height: 35px;
+     width: 200px;
+     border-radius: 5px;
+     margin: 10px;
+     outline: none;
+   }
+.label{
+     font-family: "Helvatica";
+     color: greyblack;
+}
+.text-area{
+     border:1px solid #05a0e8;
+     width: 200px;
+     border-radius: 5px;
+     margin: 10px;
+     outline: none;
+}
+.input-container{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     margin: 10px;
+}
+.send-btn{
+     height: 35px;
+     width: 150px;
+     font-family: "Poppins";
+     background-color:#05a0e8;
+     border-radius: 5px;
+     margin: 10px;
+     cursor: pointer;
+     color: black;
+     border-style: none;
+     font-size: 18px;
+}
+.heading{
+     font-weight: 600;
+     font-family: "Poppins";
+}
+.input-main-container{
+     display: flex;
+     flex-direction: row;
+     min-width: 500px;
+     flex-wrap: wrap;
+}

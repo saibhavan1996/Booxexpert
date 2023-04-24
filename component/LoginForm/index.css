@@ -1,0 +1,52 @@
+.login-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+   }
+   
+   h1 {
+     margin-bottom: 2rem;
+   }
+   
+   form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 25rem;
+     padding: 2rem;
+     background-color: #fff;
+     border-radius: 1rem;
+     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+   }
+   
+   label {
+     display: block;
+     margin-bottom: 0.5rem;
+     font-size: 1.2rem;
+     font-weight: bold;
+   }
+   
+   .input-bar {
+    border:1px solid #05a0e8;
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
+    outline: none;
+   }
+   
+   .log-btn{
+     height: 45px;
+     width: 150px;
+     font-family: "Poppins";
+     background-color:#05a0e8;
+     border-radius: 5px;
+     margin: 10px;
+     cursor: pointer;
+     color: black;
+     border-style: none;
+     font-size: 18px;
+     text-align: center;
+   }
